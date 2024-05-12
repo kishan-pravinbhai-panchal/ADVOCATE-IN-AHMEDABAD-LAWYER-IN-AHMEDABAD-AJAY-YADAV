@@ -1,0 +1,664 @@
+/* Home Page  */
+@media screen and (max-width: 1024px){
+
+    /* Home Page */
+    .s-1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100px;
+        
+    }
+    .s-1 .ICONS a {
+        padding-left: 5px;
+        font-size: 20px;
+    }
+    .s-1 .intro p {
+        font-size: 30px;
+        margin: 10px 0px;
+    }
+    
+    .nav-ele li a {
+        font-size: 17px;
+        padding: 9px 9px;
+    }
+
+
+    .carousel-item .text h4 {
+        margin-bottom: 29px;
+        font-size: 25px;
+        font-family: "EB Garamond";
+    }
+    .carousel-item .text h2 {
+        color: black;
+        font-family: "Playfair Display";
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .s-4 {
+    align-items:  center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px 0px;
+    }
+    .s-4 .box {
+         width: 280px;
+    }
+    .s-5 {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 75px 0px;
+    }
+    .about {
+        padding: 40px 0px;
+    }
+    .exp h5 {
+        margin-bottom: 30px;
+        padding: 0px 62px;
+
+    }
+    .first-exp {
+        width: 70%;
+        
+    }
+
+    /* About Page */
+        .AboutImage img {
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            height: 50%;
+            width: 420px;
+            padding: 20px 20px;
+        }
+
+        /* contact us */
+        .form h3 {
+            margin-bottom: 30px;
+            word-spacing: 1px;
+            font-size: 24px;
+        }
+        .form input, .form textarea {
+            padding: 20px;
+        }
+        .form input.pnumber, .form input.email {
+            width: 432.5px;
+        }
+        .s-16 {
+            display: flex;
+            /* column-gap: 10px;
+            row-gap: 10px; */
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .Cinfo {
+            width: 45%;
+            height: 180px;
+        }
+        .Cinfo a {
+            font-size: 23px;
+        }
+        .Einfo {
+            width: 45%;
+            height: 180px;
+        }
+        .Einfo a {
+            font-size: 23px;
+        }
+        .Ainfo {
+            width: 45%;
+            height: 180px;
+        }
+        .Ainfo p {
+            font-size: 17px
+        }
+        .Winfo {
+            width: 45%;
+            height: 180px;
+        }
+        .Winfo h4 {
+            font-size: 37px;
+            margin-bottom: 8px;
+        }
+        .Winfo p {
+            font-size: 17px;
+        }
+
+
+        /* blogpages */
+        .parentText h1 {
+            margin: 0px 0px;
+            font-size: 35px;
+        }
+        .parentText ol li {
+            margin: 0px 0px;
+            font-size: 19px;
+        }
+        .parentText p {
+            font-size: 23px;
+            word-spacing: 3px;
+            color: #222;
+            line-height: 35px;
+        }
+  }
+
+  @media screen and (max-width: 768px) {
+    .s-1 {
+        height: 100px;
+        width: 100%;
+      }
+    .s-1 .ICONS a {
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    .s-1 .intro p {
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    .nav-ele li a {
+        font-size: 13px;
+        padding: 8px 8px;
+    }
+    .carousel-item .text h4 {
+        margin-bottom: 29px;
+        font-size: 25px;
+        font-family: "EB Garamond";
+    }
+    .carousel-item .text h2 {
+        color: black;
+        font-family: "Playfair Display";
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .exp h5 {
+        margin-bottom: 20px;
+        padding: 0px 0px;
+    }
+    .first-exp {
+        height: 220px;
+        width: 75%;
+    }
+    .first-exp .expText h4 {
+        font-size: 25px;
+        
+    }
+
+    /* About us */
+    .s-12 {
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container3 {
+        height: 132px;
+    }
+    .AboutText {
+        margin-left: 0px;
+    }
+    .AboutImage img {
+        height: 50%;
+        width: 100%;
+        padding: 20px 20px;
+    }
+    .AboutText h1 {
+        font-size: 39px;
+        margin:40px 0px 10px 0px;
+    }
+    .AboutText a {
+        padding: 18px 198px;
+        font-size: 22px;
+    }
+    .cnt01 {
+        font-size: 27px;
+    }
+    .cnt1::after {
+        font-size: 62px;
+     }
+     .cnt2::after {
+         font-size: 62px;
+     }
+
+     /* testimonials */
+
+     .test-card-body .quote h2 {
+        font-size: 19px;
+       
+    }
+    .section-header h1 {
+        font-size: 43px;
+    }
+    h1 {
+        line-height: 53px;
+    }
+    /* blog */
+    .Blogheading h2 {
+        font-size: 20px;
+        margin-top: 50px;
+        text-align: start;
+        line-height: 41px;
+    }
+    .Blogheading h4 {
+        font-size: 20px;
+        margin-top: 24px;
+    }
+  /* contact us */
+  .s-16 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  .Cinfo a {
+    font-size: 15px;
+  }
+  .Einfo a {
+    font-size: 15px;
+  }
+  .Ainfo p {
+    font-size: 15px;
+  }
+  .Winfo h4 {
+    font-size: 27px;
+  }
+  .Winfo p {
+    font-size: 13px;
+   }
+   .Winfo {
+    margin-top: 20px;
+    }
+    .Ainfo {
+        margin-top: 20px;
+        }
+
+        /* blogpages */
+    .parentText h1 {
+    margin: 0px 0px;
+    font-size: 30px;
+    }
+    .parentText p {
+        font-size: 18px;
+        word-spacing: 0px;
+        color: #222;
+        line-height: 28px;
+    }
+}
+  @media screen and (max-width: 429px) {
+    .s-1 {
+        height: 100px;
+        width: 100%;
+      }
+    
+    .s-1 .ICONS a {
+        padding-left: 5px;
+        font-size: 12px;
+    }
+    .s-1 .intro p {
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+    .nav-ele li a {
+        font-size: 8px;
+        padding: 4px 4px;
+    }
+    .nav-ele li img {
+        width: 50px;
+        height: 50px;
+    }
+    .s-2 {
+        height: 52px;
+    }
+    .nav-ele {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #container {
+        padding: 0px 50px;
+    }
+    .carousel-item .text h4 {
+        font-size: 20px;
+        font-family: "EB Garamond";
+    }
+    .carousel-item .text h2 {
+        margin-bottom: 50px;
+        margin-right: 75px;
+        color: black;
+        font-family: "Playfair Display";
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .carousel-item .text a {
+    padding: 15px 39px;
+    }
+    .image img {
+        height: 485px;
+        width: 295px;
+    }
+    .about h4 {
+        font-size: 12px;
+    }
+    .about h1 {
+        font-size: 38px;
+        margin: 5px 0px;
+    }
+    .about a {
+       padding: 20px 67px;
+    }
+    .s-5 {
+        margin: 70px 0px;
+    }
+    .s-6 {
+        margin: 49px 0px;
+    }
+    .exp h1 {
+        font-size: 48px;
+    }
+    .exp h5 {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .first-exp {
+        height: 276px;
+        width:100%;
+        margin: 20px 0px;
+    }
+    .footer .f-t p {
+        font-size: 13px;
+        word-spacing: 0;
+    }
+    .footer .links a {
+        font-size: 15px;
+    }
+    .footer .social-media {
+        gap: 20px;
+    }
+    .live-chat a {
+    padding: 26px 20px;
+    font-size: 21px;
+    }
+
+    /* About us */
+
+    .cnt1::after {
+       font-size: 62px;
+    }
+    .cnt2::after {
+        font-size: 62px;
+    }
+    .AboutBox hr {
+        width: 250px;
+    }
+    .s-11 {
+        height: 300px;
+    }
+    .AboutText h1 {
+        font-size: 23px;
+        margin: 40px 0px 0px 0px;
+    }
+    .AboutText a {
+        margin: 30px 0px;
+        padding: 18px 84px;
+        font-size: 16px;
+    }
+
+    /* blog */
+    .Blogheading img {
+        height: 200px;
+        width: 200px;
+    }
+    .blogBox a {
+        margin: -12px 0px 20px 0px;
+    }
+
+    /* contact us */
+    .s-13 {
+        margin: 75px 0px;
+    }
+    .form h3 {
+        margin-bottom: 30px;
+        word-spacing: 1px;
+        font-size: 22px;
+        text-align: center;
+        line-height: 29px;
+    }
+  .form input,
+  .form textarea {
+    width: 100%;
+   }
+.form input.pnumber,
+  .form input.email {
+    width: 300px;
+   
+  }
+  .s-16 {
+    margin: 75px 80px;
+}
+    .Cinfo {
+        width: 300px;
+        margin-top: 20px;
+    }
+    .Cinfo a {
+        font-size: 16px;
+    }
+    .Einfo {
+        width: 300px;
+        margin-top: 20px;
+    }
+    .Einfo a {
+        font-size: 15px;
+    }
+    .Ainfo {
+        width: 300px;
+        margin-top: 20px;
+    }
+    .Winfo {
+        width: 300px;
+        margin-top: 20px;
+    }
+    .map {
+        margin: 0px 50px 50px 50px;
+    }
+    .parentHeading h2 {
+        font-family: 'spartan', sans-serif;
+        color: #fff;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .parentText h1 {
+        margin: 0px 0px;
+        font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 376px){
+    .s-1 .intro p {
+        font-size: 14px;
+        margin: 7px 0px;
+    }
+    .s-1 .ICONS a {
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    #container {
+        padding: 0px 10px;
+    }
+    .nav-ele li a {
+        font-size: 9px;
+        padding: 4px 4px;
+    }
+    .carousel-item .text {
+        padding-left: 35px;
+    }
+    .image {
+        padding: 20px 23px;
+    }
+    .first-exp .expText {
+        margin: 20px 10px;
+    }
+    .first-exp {
+        height: 243px;
+        width: 65%;
+        margin: 10px 0px;
+    }
+    .first-exp .exp-img img {
+        margin: 10px;
+        height: 65px;
+        width: 65px;
+    }
+    .first-exp .expText h4 {
+        font-size: 22px;
+        word-spacing: 0px;
+        font-weight: bolder;
+    }
+    .first-exp .expText p {
+        font-size: 12px;
+        margin: 15px 0px;
+        word-spacing: 2px;
+        font-weight: 300;
+    }
+    .chatbot {
+      right: 5px;
+      width: 360px;
+      height: 450px;
+      bottom: 80px;
+      }
+
+    /* about us */
+    .AboutBox hr {
+        width: 200px;
+    }
+    .AboutBox h1 {
+        font-size: 37px;
+        font-weight: bolder;
+    }
+    .AboutImage img {
+        height: 50%;
+        width: 285px;
+        padding: 20px 20px;
+    }
+    .blogBox {
+        width: 300px;
+        height: 400px;
+    }
+    .blogBox h5 {
+        font-size: 19px;
+    }
+    .blogBox p {
+        font-size: 16px;
+        margin: 15px 0px 20px 0px;
+        line-height: 31px;
+        word-spacing: 0px;
+    }
+    .blogBox a {
+        margin: 0px 0px 20px 0px;
+        padding: 10px 80px;
+        font-size: 17px;
+    }
+    .Einfo a {
+        font-size: 11px;
+    }
+    .Ainfo p {
+        font-size: 11px;
+    }
+    .Cinfo a {
+        font-size: 11px;
+    }
+    .Winfo p {
+        font-size: 11px;
+    }
+    .Winfo h4 {
+        font-size: 22px;
+    }
+    .image {
+        padding: 20px 11px;
+    }
+    .s-16 {
+        margin: 75px 60px;
+    }
+   
+    
+
+  }
+  @media screen and (max-width: 321px){
+    .nav-ele li a {
+        font-size: 7px;
+        padding: 4px 5px;
+    }
+    .about a {
+        font-size: 17px;
+    }
+    .AboutText a {
+        font-size: 13px;
+    }
+    .exp h1 {
+        font-size: 45px;
+    }
+    .chatbot {
+        right: 5px;
+        width: 310px;
+        height: 450px;
+        bottom: 80px;
+    }
+    /* about us */
+    .AboutBox hr {
+        width: 200px;
+    }
+    .test-card-body .quote h2 {
+        font-size: 15px;
+    }
+    .AboutText h1 {
+        font-size: 21px;
+        margin: 40px 0px 0px 0px;
+    }
+    .AboutText p {
+        font-size: 16px;
+        margin: 15px 0px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+    }
+    .blogBox {
+        width: 315px;
+    }
+    .blogBox h5 {
+        padding: 10px 80px;
+        font-size: 20px;
+        margin: 20px 10px 0px 10px;
+
+    }
+    .blogBox a {
+        padding: 10px 50px;
+        font-size: 18px;
+    }
+    .Cinfo {
+        width: 285px;
+        margin-top: 20px;
+    }
+    .s-16 {
+        margin: 75px 40px;
+    }
+    .map {
+        margin: 0px 40px;
+        margin-bottom: 80px;
+        
+      }
+      .footer .f-t p {
+        font-size: 12px;
+    }
+    .parentText p {
+        font-size: 15px;
+        word-spacing: 0px;
+        color: #222;
+        line-height: 28px;
+    }
+    .cnt01 {
+        font-size: 14px;
+    }
+    .section-header h1 {
+        font-size: 30px;
+    }
+  }
