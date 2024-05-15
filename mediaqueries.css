@@ -753,4 +753,22 @@
         font-size: 12px;
         bottom: 25px;
     }
+
+      /* practice area */
+    .pimg img {
+        width: 260px;
+    }
+    .practicebox {
+        top: -80px;
+        left: 26px;
+        height: 300px;
+        width: 210px;
+    }
+    .practicebox h4 {
+        font-size: 20px;
+    }
+    .practicebox p {
+        font-size: 13px;
+        word-spacing: 0px;
+    }
   }
