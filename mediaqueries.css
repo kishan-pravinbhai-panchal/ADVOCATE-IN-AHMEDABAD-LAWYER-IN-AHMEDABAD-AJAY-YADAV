@@ -626,7 +626,27 @@
     .s-16 {
         margin: 75px 60px;
     }
-   
+
+      
+    /* practice area */
+
+    .pimg img {
+        width: 300px;
+    }
+    .practicebox {
+        top: -80px;
+        left: 34px;
+        height: 300px;
+        width: 230px;
+    }
+    .practicebox h4 {
+        font-size: 25px;
+    }
+    .practicebox p {
+        font-size: 15px;
+    }
+    
+
     
 
   }
