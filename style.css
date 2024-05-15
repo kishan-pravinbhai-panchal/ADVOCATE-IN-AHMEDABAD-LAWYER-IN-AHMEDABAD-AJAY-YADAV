@@ -1421,3 +1421,82 @@ flex-direction: column;
     padding: 0px 10px;
     font-size: 30px;
   }
+
+
+ /* practice area */
+
+
+  .s-20 {
+    margin: 70px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+   .parentp {
+    margin: 0px 30px 0px 30px;
+   }
+  .pimg img {
+  height: 250px;
+  width: 360px;
+    position: relative; /* Changed from absolute to relative */
+    z-index: 1; /* Add z-index to ensure it is below the practicebox */
+    border-radius: 5px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+  }
+  .pimg img:hover {
+    background: rgba(184, 155, 94, 0.7); /* Orange color with 50% opacity */
+
+  }
+  
+  .practicebox {
+    background-color: #ffffff;
+    position: relative;
+    top: -80px;
+    left: 32px;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 2; /* Ensure it is above the image */
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 29px 0px;
+    cursor: pointer;
+    transition:  box-shadow 0.5s ease;
+  }
+  .practicebox:hover {
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .practicebox h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #166896;
+    font-size: 35px;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+  }
+  .practicebox p {
+    font-size: 16px;
+    word-spacing: 2px;
+    text-align: center;
+    line-height: 20px;
+    color: #777777;
+    margin: 0px 10px 20px 10px;
+  }
+  .practicebox a {
+    text-decoration: none;
+    margin: 15px 0px 20px 0px ;
+    padding: 15px 45px;
+    font-weight: 600;
+    color: #166896;
+    font-size: 15px;
+    outline: 3px solid #166896;
+    border-radius: 1px;
+  }
+  .practicebox a:hover {
+    color: black;
+    background-color: #166896;
+  }
+  
