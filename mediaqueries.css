@@ -807,7 +807,7 @@
     .practicebox {
         top: -80px;
         left: 26px;
-        height: 300px;
+        height: 100%;
         width: 210px;
     }
     .practicebox h4 {
