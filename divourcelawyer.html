@@ -159,6 +159,73 @@
     </div>
   </div>
 
+
+
+
+   <div class="overlay">
+    <div class="wrapper flex_align_justify">
+        <div class="tc_wrap" style="height: 175px;">
+                <div class="tab_head">
+                    <h2>DISCLAIMER</h2>
+                </div>
+                <div class="tab_body">
+                    <div class="tab_item tab_item_1">
+                        <p>This information is for general knowledge only and does not constitute legal advice.
+
+                        </p>
+
+                        <!-- Add more content here -->
+                    </div>
+                </div>
+                <div class="tab_foot flex_align_justify">
+                    <!-- <button class="decline">Decline</button> -->
+                    <button class="agree">Agree</button>
+                </div>
+            
+         </div>
+    </div>
+  </div>
+   <script>
+   document.addEventListener('DOMContentLoaded', function() {
+    var tab_lists = document.querySelectorAll(".tabs_list ul li");
+    var tab_items = document.querySelectorAll(".tab_item");
+  
+    tab_lists.forEach(function(list) {
+      list.addEventListener("click", function() {
+        var tab_data = list.getAttribute("data-tc");
+  
+        tab_lists.forEach(function(list) {
+          list.classList.remove("active");
+        });
+        list.classList.add("active");
+  
+        tab_items.forEach(function(item) {
+          var tab_class = item.getAttribute("class").split(" ");
+          if (tab_class.includes(tab_data)) {
+            item.style.display = "block";
+          } else {
+            item.style.display = "none";
+          }
+        });
+      });
+    });
+  
+    var agreeButton = document.querySelector('.agree');
+    var declineButton = document.querySelector('.decline');
+    var overlay = document.querySelector('.overlay');
+  
+    agreeButton.addEventListener('click', function() {
+      overlay.style.display = 'none';
+    });
+  
+    declineButton.addEventListener('click', function() {
+      alert('You must agree to the terms and conditions to proceed.');
+      window.history.back();
+    });
+  });
+  
+  
+   </script>
   <!-- script of chatbot -->
   <script type="importmap">
     {
