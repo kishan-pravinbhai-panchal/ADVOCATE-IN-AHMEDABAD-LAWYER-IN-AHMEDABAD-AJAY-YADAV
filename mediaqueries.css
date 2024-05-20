@@ -513,6 +513,10 @@
         width: 100%;
         height: 300px;
     }
+     /* disclaimer */
+    .tc_wrap {
+        width: 375px;
+    }
   }
  @media screen and (max-width: 376px){
     .s-1 .intro p {
@@ -675,6 +679,11 @@
         width: 100%;
         height: 300px;
     }
+     /* disclaimer */
+    .tc_wrap {
+        width: 321px;
+    }
+    
   }
 @media screen and (max-width: 321px){
     .nav-ele li a {
@@ -824,6 +833,11 @@
     }
     .clend a {
         padding: 10px 40px;
+    }
+
+/*     disclaimer */
+    .tc_wrap {
+        width: 300px;
     }
 }
 @media screen and (max-width: 300px){
