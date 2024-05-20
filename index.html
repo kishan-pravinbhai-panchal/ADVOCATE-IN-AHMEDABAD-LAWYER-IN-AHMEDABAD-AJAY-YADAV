@@ -237,6 +237,104 @@
     </div>
   </div> 
 
+
+
+
+
+
+   <!--diclaimer  -->
+ 
+
+ <div class="overlay">
+  <div class="wrapper flex_align_justify">
+      <div class="tc_wrap">
+              <div class="tab_head">
+                  <h2>DISCLAIMER</h2>
+              </div>
+              <div class="tab_body">
+                  <div class="tab_item tab_item_1">
+                      <p>This website has been designed solely for the purpose of disseminating basic information about Ajay Yadav, a criminal lawyer based in Ahmedabad. Careful attention has been given to ensure that the information provided herein is accurate and up-to-date. However, Ajay Vadhiya is not responsible for any reliance that a reader places on such information and shall not be liable for any loss or damage caused due to any inaccuracy in or exclusion of any information, or its interpretation thereof. Readers are advised to confirm the veracity of the same from independent and expert sources.
+                      </p>
+                      <p>This website is not an attempt to advertise or solicit clients, and does not seek to create or invite any lawyer-client relationship. The links provided on this website are to facilitate access to basic information about Ajay Vadhiya, and to share various thought leadership initiatives undertaken by him. The content herein or on such links should not be construed as a legal reference or legal advice. Readers are advised not to act on any information contained herein or on the links and should refer to legal counsels and experts in their respective jurisdictions for further information and to determine its impact.
+
+                      </p>
+                      <p>Ajay Yadav advises against the use of the communication platform provided on this website for the exchange of any confidential, business, or politically sensitive information. Users are requested to use their judgement, and the exchange of any such information shall be solely at the user's risk.
+                      </p>
+                      <!-- Add more content here -->
+                  </div>
+              </div>
+              <div class="tab_foot flex_align_justify">
+                  <!-- <button class="decline">Decline</button> -->
+                  <button class="agree">Agree</button>
+              </div>
+          
+       </div>
+  </div>
+</div>
+ <script>
+ document.addEventListener('DOMContentLoaded', function() {
+  var tab_lists = document.querySelectorAll(".tabs_list ul li");
+  var tab_items = document.querySelectorAll(".tab_item");
+
+  tab_lists.forEach(function(list) {
+    list.addEventListener("click", function() {
+      var tab_data = list.getAttribute("data-tc");
+
+      tab_lists.forEach(function(list) {
+        list.classList.remove("active");
+      });
+      list.classList.add("active");
+
+      tab_items.forEach(function(item) {
+        var tab_class = item.getAttribute("class").split(" ");
+        if (tab_class.includes(tab_data)) {
+          item.style.display = "block";
+        } else {
+          item.style.display = "none";
+        }
+      });
+    });
+  });
+
+  var agreeButton = document.querySelector('.agree');
+  var declineButton = document.querySelector('.decline');
+  var overlay = document.querySelector('.overlay');
+
+  agreeButton.addEventListener('click', function() {
+    overlay.style.display = 'none';
+  });
+
+  declineButton.addEventListener('click', function() {
+    alert('You must agree to the terms and conditions to proceed.');
+    window.history.back();
+  });
+});
+
+
+ </script>
+
+ <!-- disclaimer end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
  <!-- script of chatbot -->
 <script type="importmap">
     {
