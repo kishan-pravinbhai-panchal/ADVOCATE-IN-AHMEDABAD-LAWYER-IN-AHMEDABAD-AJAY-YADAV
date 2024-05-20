@@ -606,6 +606,7 @@
     .AboutBox h1 {
         font-size: 37px;
         font-weight: bolder;
+        text-align: center;
     }
     .AboutImage img {
         height: 50%;
